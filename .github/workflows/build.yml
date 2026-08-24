@@ -1,6 +1,7 @@
 name: Build Rust Project (Linux & Windows)
 
 on:
+  workflow_dispatch: 
   push:
     branches: [ master ]
     tags:
